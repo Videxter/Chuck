@@ -39,4 +39,4 @@ SinOsc s;
 /*______________________________________________________
 Ejecucion, ensamble y manipulacion del codigo terminado.
 */
-spork-escalas();
+spork~escalas();
