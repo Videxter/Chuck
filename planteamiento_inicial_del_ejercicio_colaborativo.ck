@@ -1,4 +1,5 @@
-// planteamiento de ejercicio de producción de escalas mayores y menores
+// planteamiento de la division de tareas para
+// ejercicio de producción de escalas mayores y menores
 
 // grupo 1: instanciación de objetos
 /*_____________________________________________________
@@ -19,6 +20,7 @@ s.freq(); // para que la frecuencia??
 /*_____________________________________________________
 Analizar los tipos de variables para usar en el ejercicio
 flotantes, enteros, arrays y conversión de datos.
+crear arrays de enteros para las escalas 
 */
 int i;
 float f;
