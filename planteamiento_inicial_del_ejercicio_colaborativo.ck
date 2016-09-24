@@ -1,7 +1,7 @@
 // planteamiento de la division de tareas para
 // ejercicio de producción de escalas mayores y menores
 
-// grupo 1: instanciación de objetos
+// grupo 1. Creación (instanciación) e inicialización de  objetos, y variables.
 /*_____________________________________________________
 Experimentar con ondas y los atributos de estas.
 Analizar la lógica de las frecuencias y las notas midi.
@@ -16,7 +16,7 @@ s.freq(); // para que la frecuencia??
 // que es now?
 3::second => now; //por que esta línea de tiempo debajo de las otras?
 
-// grupo 2: Variables
+// grupo 2. Funciones
 /*_____________________________________________________
 Analizar los tipos de variables para usar en el ejercicio
 flotantes, enteros, arrays y conversión de datos.
@@ -28,14 +28,7 @@ int array[];
 Std.mtof();
 Std.ftom();
 
-// grupo 3: Documentación
-/*______________________________________________________
-analisis del codigo y explicación del mismo en forma de comentarios
-*/
-// Establece una onda pura
-SinOsc s;
-
-// grupo 4:
+// grupo 3. Ejecución
 /*______________________________________________________
 Ejecucion, ensamble y manipulacion del codigo terminado.
 */
@@ -71,3 +64,10 @@ spork~ scaleGenerator(maj);
  
 while(true){10::ms => now;}
 
+
+// grupo 4. Documentación
+/*______________________________________________________
+analisis del codigo y explicación del mismo en forma de comentarios
+*/
+// Establece una onda pura
+SinOsc s;
